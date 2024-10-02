@@ -5,7 +5,7 @@
 deploy live in https://whatsapp-link-generator-lzn.vercel.app/
 
 
-## 🎨 Simulation
+## 🎨 Demonstration
 ![Whatsapp-Link-Generator](https://github.com/user-attachments/assets/9fd9456a-107c-4b2a-8c9f-3a963555d255)
 
 
