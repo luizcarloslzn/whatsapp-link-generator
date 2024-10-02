@@ -14,7 +14,7 @@
 ![image](https://github.com/user-attachments/assets/7dcbcb3e-60b4-4778-94eb-1ede87885eb6)
 
 
-### 🛠 Tecnologias Usadas
+## 🛠 Tecnologias Usadas
 
 - [x] HTML
 - [x] CSS
