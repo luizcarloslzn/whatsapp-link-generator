@@ -2,10 +2,10 @@
 
 <p align='center'>Serviço criado criar links personalizados para Whatsapp com ou sem mensagem padrão, decidir criar esse serviço quando me deparei com sites cobrando para fazer isso, espero que aproveitem!</p>
 
-deploy live in https://whatsapp-link-generator-lzn.vercel.app/
+🎮 Deploy live in https://whatsapp-link-generator-lzn.vercel.app/
 
 
-## 🎨 Demonstration
+## 🎬 DEMO
 ![Whatsapp-Link-Generator](https://github.com/user-attachments/assets/9fd9456a-107c-4b2a-8c9f-3a963555d255)
 
 
