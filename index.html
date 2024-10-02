@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Link para WhatsApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Link para <span class="highlight">WhatsApp</span></h1>
+        <p class="description">
+            Gere um link para o seu WhatsApp em apenas dois cliques e compartilhe entre seus clientes, redes sociais e nunca mais precise ditar o seu número.<br><br>
+            1. Insira o seu número de <span class="highlight">WhatsApp</span> com DDD<br>
+            2. Crie uma mensagem que o contato enviará automaticamente<br>
+            3. Clique no botão <span class="span-destaque">Gerar Link</span><br>
+            4. Pronto! Agora é só compartilhar!
+        </p>
+        
+        <form id="whatsappLinkForm">
+            <label for="phone">Insira o número do seu <span class="highlight">WhatsApp:</span></label>
+            <div class="phone-container">
+                <img src="./assets/brasil-flag.svg" alt="Bandeira do Brasil">
+                <input type="text" id="phone" placeholder="(81) 9 9999-9999" required oninput="maskPhone(this)">
+            </div>
+        
+            <label for="message">Crie uma mensagem padrão para enviar:</label>
+            <textarea id="message" rows="4" placeholder="Digite sua mensagem aqui"></textarea>
+        
+            <div class="checkbox-container">
+                <input type="checkbox" id="noMessage" name="noMessage">
+                <label for="noMessage">
+                    <span>Deixar mensagem em branco</span>
+                </label>
+            </div>
+
+            <button type="submit">Gerar Link</button>
+        </form>
+        
+        <div class="output" id="output"></div>
+
+        <footer>
+            <p>Desenvolvido com <i class="fas fa-heart" style="color:red"></i> por Luiz Carlos</p>
+        </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
